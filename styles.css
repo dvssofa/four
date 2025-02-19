@@ -76,17 +76,6 @@ a:hover{
  color:#666;
 }
 
-.about h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.about p {
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.6;
-    text-align: justify;
-}
 
 footer {
     background-color: #000000;
@@ -149,4 +138,73 @@ footer {
     font-weight: bold;
     color: #333;
     margin-bottom: 15px;
+}
+
+.about-hero {
+    background-image: url('https://avatars.mds.yandex.net/i?id=29bdf514ad4aaae7020acd497d6b20c1_l-5194719-images-thumbs&n=13');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+.story {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.story h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.story p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.info-card {
+    background-color: #e0e5ec;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+.info-card i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.info-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 1rem;
+    color: #666;
 }
